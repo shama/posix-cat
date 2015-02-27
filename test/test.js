@@ -1,5 +1,5 @@
 var test = require('tape')
-var Cat = require('../posix-cat.js')
+var Cat = require('../index.js')
 var fs = process.browser ? require('./virtual-fs.js') : require('fs')
 
 function assertResult(s, cb) {

@@ -1,7 +1,7 @@
 {
-  "name": "posix-cat",
+  "name": "ix-cat",
   "version": "1.1.0",
-  "description": "A POSIX cat in JavaScript",
+  "description": "A POSIX-like cat in JavaScript",
   "main": "index.js",
   "bin": {
     "cat": "bin/cat"
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/shama/posix-cat"
+    "url": "git://github.com/shama/ix-cat"
   },
   "keywords": [
     "posix",
@@ -21,9 +21,9 @@
   "author": "Kyle Robinson Young <kyle@dontkry.com> (http://dontkry.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shama/posix-cat/issues"
+    "url": "https://github.com/shama/ix-cat/issues"
   },
-  "homepage": "https://github.com/shama/posix-cat",
+  "homepage": "https://github.com/shama/ix-cat",
   "dependencies": {
     "inherits": "^2.0.1",
     "next-tick": "^0.2.2",

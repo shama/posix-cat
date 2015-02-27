@@ -1,1 +1,1 @@
-module.exports = require('./posix-cat.js')
+module.exports = require('./ix-cat.js')
