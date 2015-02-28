@@ -17,7 +17,7 @@ function Cat(argv) {
   })
   if (self.params._.length > 0) {
     nextTick(function() {
-      var fs = self.params.fs
+      var fs = self.fs
       for (var i = 0; i < self.params._.length; ++i) {
         fs.createReadStream(self.params._[i]).pipe(self)
       }
