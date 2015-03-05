@@ -1,14 +1,14 @@
-# [ix-cat](http://pubs.opengroup.org/onlinepubs/9699919799/utilities/cat.html) :cat2:
+# [posix-cat](http://pubs.opengroup.org/onlinepubs/9699919799/utilities/cat.html) :cat2:
 
 A POSIX-like `cat` in JavaScript.
 
-[![NPM](https://nodei.co/npm/ix-cat.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/ix-cat/)
+[![NPM](https://nodei.co/npm/posix-cat.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/posix-cat/)
 
-[![build status](https://secure.travis-ci.org/shama/ix-cat.svg)](https://travis-ci.org/shama/ix-cat)
-[![Build status](https://ci.appveyor.com/api/projects/status/hqxkew74fkg8mg09)](https://ci.appveyor.com/project/shama/ix-cat)
-[![NPM version](https://badge.fury.io/js/ix-cat.svg)](https://badge.fury.io/js/ix-cat)
+[![build status](https://secure.travis-ci.org/shama/posix-cat.svg)](https://travis-ci.org/shama/posix-cat)
+[![Build status](https://ci.appveyor.com/api/projects/status/hqxkew74fkg8mg09)](https://ci.appveyor.com/project/shama/posix-cat)
+[![NPM version](https://badge.fury.io/js/posix-cat.svg)](https://badge.fury.io/js/posix-cat)
 
-<!-- [![browser support][https://ci.testling.com/shama/ix-cat.png]][https://ci.testling.com/shama/ix-cat] -->
+<!-- [![browser support][https://ci.testling.com/shama/posix-cat.png]][https://ci.testling.com/shama/posix-cat] -->
 [![Sauce Test Status](https://saucelabs.com/browser-matrix/shama.svg)](https://saucelabs.com/u/shama)
 
 ## CLI
@@ -20,7 +20,7 @@ echo "// before" | cat one.js two.js three.js > output.js
 ## API
 
 ```js
-var Cat = require('ix-cat')
+var Cat = require('posix-cat')
 ```
 
 ### `var cat = new Cat(argv)`

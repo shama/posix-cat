@@ -1,5 +1,5 @@
 {
-  "name": "ix-cat",
+  "name": "posix-cat",
   "version": "1.1.1",
   "description": "A POSIX-like cat in JavaScript",
   "main": "index.js",
